@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  background-color: #141414;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.header {
+  height: 68px;
+  padding: 0px 53px;
+}
+
+.header__img {
+  width: 100px;
+  padding-top: 20px;
+}
+
+.main {
+  position: fixed;
+  top: 200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.main__container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__title {
+  color: #fff;
+  font-size: 3.5vw;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main__container-items {
+  width: 200px;
+  height: 200px;
+  margin: 0 2vw 0 0;
+  cursor: pointer;
+}
+
+.main__container-items a{
+  text-decoration: none;
+}
+
+.main__container-items:hover p {
+  color: white;
+}
+
+.main__container-items img{
+  width: 200px;
+  border: .3em solid rgba(0,0,0,.4);
+} 
+
+.main__container-items img:hover {
+  border: .3em solid white;
+}
+ 
+.main__container-items p {
+  color: grey;
+  font-size: 1.3vw;
+  text-align: center;
+  margin: .6em 0;
+}
+
+.main__container-info {
+  text-align: center;
+  margin-top: 150px;
+}
+.main__container-info a {
+  border: 1px solid grey;
+  color: grey;
+  text-transform: uppercase;
+  padding: .5em 1.5em;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.main__container-info a:hover{
+  border: 1px solid white;
+  color: white; 
+}
